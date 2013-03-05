@@ -1,0 +1,11 @@
+<% provide(:title, 'Sign up') %>
+<h1> Welcome to uthinks</h1>
+
+<%= form_for(@email) do |f| %>
+
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+	
+    <%= f.submit "Sign up" %>
+
+<% end %>
