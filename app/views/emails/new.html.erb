@@ -1,5 +1,9 @@
+
 <% provide(:title, 'Sign up') %>
-<h1> Welcome to uthinks</h1>
+<div class="container">
+	<div class="page_header">
+		<h1> Welcome to uthinks</h1>
+	</div>
 
 <%= form_for(@email) do |f| %>
 
@@ -7,5 +11,5 @@
     <%= f.text_field :email %>
 	
     <%= f.submit "Sign up" %>
-
+</div>
 <% end %>
